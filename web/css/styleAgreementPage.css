@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.agreement{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 19px;
+    border-radius: 5px;
+    background-color: #F8F5F8;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #000000;
+    box-sizing: content-box;
+}
+.agreement ul, .agreement li{
+   list-style: disc; 
+}
+h2{
+    margin-bottom: 15px;
+}

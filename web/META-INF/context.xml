@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/capstone">
+    <Resource
+        name="jdbc:mysql://database-1.cd5xn7occm9a.ca-central-1.rds.amazonaws.com:3306/userdb"
+        auth="Container"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://database-1.cd5xn7occm9a.ca-central-1.rds.amazonaws.com:3306/userdb"
+        username="admin"
+        password="Sait2022"
+        maxActive="100"
+        maxIdle="30"
+        maxWait="10000"
+        logAbandoned="true"
+        removeAbandoned="true"
+        removeAbandonedTimeout="60"
+        type="javax.sql.DataSource"
+    />
+</Context>

@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+.banner_field{
+    background-image: url("img/book_appointment_banner.png");
+    margin-top: 19px;
+    min-height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner{
+    text-align: center;
+    font-size: 35px;
+    line-height: 265%;
+}
+.steps{
+    margin-left: 15px;
+}
+.non_active{
+    color: #BDBDBD;
+}
+.other_step:hover{
+    color: black !important;
+}
+.message {
+    text-align: center;
+}
+.book{
+    border-radius: 5px;
+    background-color: #F8F5F8;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #000000;
+    box-sizing: content-box;
+    width: 50%;
+    margin: 30px auto;
+}
+input[type=text],
+.form-select,
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 2px 0 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.btn_wrapper{
+    text-align: center;
+}
+input[type=submit]{
+    width: 45%;
+    font-size: 16px;
+    background-color: #017C83;
+    color: white;
+    padding: 10px 15px;
+    margin: 26px 2% 0px 2%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+input[type=submit]:hover{
+    background-color: #01886f;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.table-responsive{
+    background-color: white;
+    margin: 30px auto;
+}
+thead{
+    border-top: 2px solid black;
+    border-bottom: 3px solid black;
+}
+.selected_submit{
+    width: 85% !important;
+}

@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+.banner_field{
+    background-image: url("img/signup_banner.png");
+    margin-top: 19px;
+    min-height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner{
+    text-align: center;
+    font-size: 35px;
+    line-height: 265%;
+}
+.message {
+    text-align: center;
+}
+.signup{  
+    border-radius: 5px;
+    background-color: #F8F5F8;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #000000;
+    box-sizing: content-box;
+    width: 50%;
+    margin: 30px auto;
+}
+input[type=text],
+input[type=password],
+input[type=tel],
+input[type=email],
+input[type=date],
+.province{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 2px 0 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.errormessage{
+    color: red;
+}
+.agreement_wapper{
+    text-align: center;
+}
+.agreement_wapper a{
+    color: blue;
+}
+.agreement_wapper a:hover{
+    color: black;
+    text-decoration: none;
+}
+.register_btn{
+    text-align: center;
+}
+input[type=submit],
+input[type=button]{
+    width: 26%;
+    font-size: 16px;
+    background-color: #017C83;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px 2% 0px 2%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+input[type=submit]:hover,
+input[type=button]:hover{
+    background-color: #01886f;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@media screen and (min-width: 768px) {
+    input[type=submit],
+    input[type=button]{
+        width: 20%;
+        margin: 10px 8%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .signup{
+        width: 45%;
+    }
+}
